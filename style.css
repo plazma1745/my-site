@@ -2,16 +2,16 @@
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #f9f9f9;
     color: #333;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #007BFF;
     color: white;
-    padding: 1rem 0;
+    padding: 2rem 1rem;
     text-align: center;
 }
 
@@ -20,18 +20,19 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    gap: 1rem;
-    margin-top: 0.5rem;
+    gap: 1.5rem;
+    margin-top: 1rem;
 }
 
 nav a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .hero {
-    background-color: #e0ffe0;
-    padding: 2rem;
+    background-color: #e3f2fd;
+    padding: 3rem 1rem;
     text-align: center;
 }
 
@@ -41,8 +42,18 @@ section {
     margin: auto;
 }
 
+section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+section li {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
 footer {
-    background-color: #333;
+    background-color: #007BFF;
     color: white;
     text-align: center;
     padding: 1rem 0;
